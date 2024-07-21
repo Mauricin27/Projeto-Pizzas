@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">PIZZA</a>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="modal.html">Carrinho</a> 
+            <a href="cadastro.html">Login</a>
+        </div>
+        <div class="toggle" id="navbar-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    
+        <h1>CARRINHO</h1>
+        <p>Escolha sua pizza</p>
+     
+
+    <div class="gallery">
+        <div class="product" data-id="1" data-name="Pizza Frango" data-price="18.50">
+            <img src="images/pizza.png" />
+            <div class="caption">Pizza Frango<br><br>R$ 18,50</div>
+            <button class="open-modal">Adicionar</button>
+        </div>
+        <div class="product" data-id="1" data-name="Pizza Calabresa" data-price="20.00">
+            <img src="images/pizza2.png" />
+            <div class="caption">Pizza Calabresa<br><br>R$ 20,00</div>
+            <button class="open-modal">Adicionar</button>
+        </div>
+        <div class="product" data-id="1" data-name="Pizza Americana" data-price="25.50">
+            <img src="images/pizza3.png" />
+            <div class="caption">Pizza Americana<br><br>R$ 25,50</div>
+            <button class="open-modal">Adicionar</button>
+        </div>
+        <div class="product" data-id="1" data-name="Pizza Mussarela" data-price="30.00">
+            <img src="images/pizza5.png" />
+            <div class="caption">Pizza Mussarela<br><br>R$ 30,00</div>
+            <button class="open-modal">Adicionar</button>
+        </div>
+        <div class="product" data-id="1" data-name="Pizza Quatro Queijos" data-price="35.00">
+            <img src="images/pizza6.png" />
+            <div class="caption">Pizza Quatro Queijos<br><br>R$ 35,00</div>
+            <button class="open-modal">Adicionar</button>
+        </div>
+        <div class="product" data-id="1" data-name="Pizza Chocolate" data-price="38.50">
+            <img src="images/pizza7.png" />
+            <div class="caption">Pizza Chocolate<br><br>R$ 38,50</div>
+            <button class="open-modal">Adicionar</button>
+        </div>
+        <div class="product" data-id="1" data-name="Pizza Portuguesa" data-price="40.00">
+            <img src="images/pizza3.png" />
+            <div class="caption">Pizza Tradicional<br><br>R$ 40,00</div>
+            <button class="open-modal">Adicionar</button>
+        </div>
+        <div class="product" data-id="1" data-name="Pizza Tradicional" data-price="42.00">
+            <img src="images/pizza5.png" />
+            <div class="caption">Pizza Holandesa<br><br>R$ 42,00</div>
+            <button class="open-modal">Adicionar</button>
+        </div>
+        </div>
+    </div>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Carrinho</h3>
+            <img src="images/images.png" />
+            <ul id="cart-items"></ul>
+            <p>Total: R$ <span id="total-price">0</span></p>
+            <button id="cancel">Cancelar</button>
+            <button id="confirm">Confirmar</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-area">
+            <div class="footer-content">
+                <h3>SERVIÇOS</h3>
+                <ul>
+                    <li><a href="#">Entregas</a></li>
+                    <li><a href="#">Trocas</a></li>
+                    <li><a href="#">Devoluções</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>AJUDA</h3>
+                <ul>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Garantia</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>REDES SOCIAIS</h3>
+                <ul>
+                    <li><a href="#"><img src="images/instagram (2).png" style="max-width: 30px; height: 24px;"></a></li>
+                    <li><a href="#"><img src="images/youtube.png" style="max-width: 30px; height: 24px;"></a></li>
+                    <li><a href="#"><img src="images/whatsapp.png" style="max-width: 30px; height: 24px;"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-text">
+            <p></p>
+            <br>
+            <p>&copy; 2024 Pizza Master. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    
+    <script src="js/modal.js"></script>
+</body>
+</html>

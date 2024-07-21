@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pizzas Site</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#" style="font-family: 'Georgia';">PIZZA</a>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="modal.html">Carrinho</a> 
+            <a href="cadastro.html">Login</a>
+        </div>
+        <div class="toggle" id="navbar-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <section class="banner">
+        <div class="banner-content">
+            <h1>PIZZA MASTER</h1>
+            <h2>A melhor pizza da cidade você só encontra aqui</h2>
+            <br>
+            <h4>✆(34)1234-4321 | @pizzamaster</h4>
+            <a href=""><button class="banner-btn">Acessar</button></a>
+            <br>
+        </div>
+        </div>
+    </section>
+
+    <div class="title-1">
+        <h1>VEJA NOSSO CARDÁPIO</h1>
+    </div>
+    <br>
+    <section id="search-1">
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Pesquisar...">
+          <button class="search-btn" onclick="filterImages()">Buscar</button>
+      </div>
+      </section>
+      <div class="gallery" id="gallery">
+          <div class="image-item" data-title="Frango">
+              <img src="images/pizza.png" >
+              <p>Frango</p>
+              <br>
+              <p>R$ 20,50</p>
+              <br>
+              <a href="modal.html"><button class="gallery-btn">Carrinho</button></a>
+          </div>
+          <div class="image-item" data-title="Calabresa">
+              <img src="images/pizza2.png" >
+              <p>Calabresa</p>
+              <br>
+              <p>R$ 22,00</p>
+              <br>
+              <a href="modal.html"><button class="gallery-btn">Carrinho</button></a>
+          </div>
+          <div class="image-item" data-title="Americana">
+              <img src="images/pizza3.png" >
+              <p>Americana</p>
+              <br>
+              <p>R$ 26,50</p>
+              <br>
+              <a href="modal.html"><button class="gallery-btn">Carrinho</button></a>
+          </div>
+          <div class="image-item" data-title="Mussarela">
+            <img src="images/pizza5.png" >
+            <p>Mussarela</p>
+            <br>
+            <p>R$ 28,00</p>
+            <br>
+            <a href="modal.html"><button class="gallery-btn">Carrinho</button></a>
+        </div>
+        <div class="image-item" data-title="Quatro queijos">
+          <img src="images/pizza6.png" >
+          <p>Quatro Queijos</p>
+          <br>
+          <p>R$ 30,00</p>
+          <br>
+          <a href="modal.html"><button class="gallery-btn">Carrinho</button></a>
+      </div>
+      <div class="image-item" data-title="Chocolate">
+        <img src="images/pizza7.png" >
+        <p>Chocolate</p>
+        <br>
+        <p>R$ 35,00</p>
+        <br>
+        <a href="modal.html"><button class="gallery-btn">Carrinho</button></a>
+      </div>
+      <div class="image-item" data-title="Tradicional">
+        <img src="images/pizza3.png" >
+        <p>Tradicional</p>
+        <br>
+        <p>R$ 30,50</p>
+        <br>
+        <a href="modal.html"><button class="gallery-btn">Carrinho</button></a>
+      </div>
+      <div class="image-item" data-title="Holandesa">
+        <img src="images/pizza5.png" >
+        <p>Holandesa</p>
+        <br>
+        <p>R$ 35,50</p>
+        <br>
+        <a href="modal.html"><button class="gallery-btn">Carrinho</button></a>
+      </div>
+      </div>
+    </section>
+    <br>
+
+   
+
+    <div class="title-2">
+        <h1>Veja abaixo</h1>
+    </div>
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <div class="card">
+                    <img src="images/cel.jpg" alt="Image 1">
+                    <p>Pizza Master APP, você poderá fazer seus pedidos pelo nosso aplicativo </p>
+                </div>
+                <div class="card">
+                    <img src="images/credit.jpg" alt="Image 2">
+                    <p>Aceitamos pagamentos pelo pix e cartão de crédito</p>
+                </div>
+                <div class="card">
+                    <img src="images/drinks.jpg" alt="Image 3">
+                    <p>Temos uma grande variedade de bebidas</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="card">
+                    <img src="images/entrega.jpg" alt="Image 4">
+                    <p>Entregas rápidas, direto na sua casa</p>
+                </div>
+                <div class="card">
+                    <img src="images/pizzeria-705842_1280.jpg" alt="Image 5">
+                    <p>Oferecemos conforto e praticidade em nossa pizzaria</p>
+                </div>
+                <div class="card">
+                    <img src="images/pizzacard.jpg" alt="Image 6">
+                    <p>Pizzas delíciosas, receitas tradicionais italianas</p>
+                </div>
+            </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">⮜</button>
+        <button class="next" onclick="nextSlide()">⮞</button>
+    </div>
+
+    <div class="template">
+        <div class="template-content">
+            <h1>SAIBA MAIS</h1>
+            <br>
+            <br>
+            <p>Lorem ipsum dolor sit amet. A accusamus maiores sed cumque magni ad unde sunt quo dolorem necessitatibus et voluptates consequatur eum facilis blanditiis. Et voluptatibus itaque et beatae pariatur in eaque suscipit in accusamus nulla sed voluptas rerum aut quasi consequuntur. Ad aliquid dolore ut beatae cumque qui magnam dolores et animi quaerat. Aut rerum voluptas quo harum excepturi aut error blanditiis ut libero modi est delectus sapiente qui galisum voluptas in sequi natus.
+              </p>
+              <br>
+              <a href=""><button class="template-btn">Veja Mais</button></a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-area">
+            <div class="footer-content">
+                <h3>SERVIÇOS</h3>
+                <ul>
+                    <li><a href="#">Entregas</a></li>
+                    <li><a href="#">Trocas</a></li>
+                    <li><a href="#">Devoluções</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>AJUDA</h3>
+                <ul>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Garantia</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>REDES SOCIAIS</h3>
+                <ul>
+                    <li><a href="#"><img src="images/instagram (2).png" style="max-width: 30px; height: 24px;"></a></li>
+                    <li><a href="#"><img src="images/youtube.png" style="max-width: 30px; height: 24px;"></a></li>
+                    <li><a href="#"><img src="images/whatsapp.png" style="max-width: 30px; height: 24px;"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-text">
+            <p></p>
+            <br>
+            <p>&copy; 2024 Pizza Master. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
